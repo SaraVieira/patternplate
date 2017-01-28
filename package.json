@@ -4,8 +4,8 @@
   "description": "Create, show and deliver component libraries",
   "main": "library/",
   "bin": {
-    "patternplate": "binary/patternplate.js",
-    "patternplate-console": "binary/patternplate-console.js"
+    "patternplate": "source/binary/patternplate.js",
+    "patternplate-console": "source/binary/patternplate-console.js"
   },
   "scripts": {
     "start": "node binary/patternplate.js",
@@ -56,13 +56,13 @@
     "ora": "^0.3.0",
     "path-exists": "^3.0.0",
     "patternplate-client": "^1.3.0",
-    "patternplate-server": "^1.0.16",
     "resolve": "^1.1.7",
     "resolve-path": "^1.2.2",
     "sander": "^0.5.1",
     "stream-to-string": "^1.1.0",
     "throat": "^3.0.0",
-    "zen-observable": "^0.3.0"
+    "zen-observable": "^0.3.0",
+		"patternplate-server": "git+ssh://git@github.com/SaraVieira/patternplate-server.git#master"
   },
   "devDependencies": {
     "babel-cli": "^6.14.0",
