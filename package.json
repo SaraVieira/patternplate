@@ -4,7 +4,7 @@
   "description": "Create, show and deliver component libraries",
   "main": "library/",
   "bin": {
-    "patternplate": "source/binary/patternplate.js",
+    "patternplate": "binary/patternplate.js",
     "patternplate-console": "source/binary/patternplate-console.js"
   },
   "scripts": {

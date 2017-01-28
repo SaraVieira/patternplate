@@ -35,7 +35,4 @@ _test
 .cache
 /application
 /build
-/binary
-/configuration
-/library
 /distribution
