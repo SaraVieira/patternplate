@@ -55,7 +55,7 @@
     "opn": "^4.0.2",
     "ora": "^0.3.0",
     "path-exists": "^3.0.0",
-    "patternplate-client": "git+https://git@github.com:Mindera/patternplate-client.git#master",
+    "patternplate-client": "https://github.com/Mindera/patternplate-client.git#master",
     "resolve": "^1.1.7",
     "resolve-path": "^1.2.2",
     "sander": "^0.5.1",
