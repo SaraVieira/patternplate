@@ -26,7 +26,7 @@ let patternplate = (() => {
 
 		if (patternplateServerInstance.runtime.mode === 'server') {
 			patternplate.mount(patternplateClientInstance);
-			patternplate.mount(patternplateServerInstance, '/api');
+			patternplate.mount(patternplateServerInstance, '/tvg-ui/api');
 			patternplateClientInstance.configuration.client.path = patternplateServerInstance.runtime.prefix;
 			patternplateClientInstance.log.debug(`Changing patternplate-client.client.path to ${patternplateServerInstance.runtime.prefix}`);
 		} else {
