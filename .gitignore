@@ -33,3 +33,6 @@ _test
 # Build targets
 .tmp
 .cache
+/application
+/build
+/distribution
