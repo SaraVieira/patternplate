@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", {
 const middlewares = {
 	'enabled': {
 		'basicauth': {
-			'enabled': true
+			'enabled': false
 		}
 	}
 };
