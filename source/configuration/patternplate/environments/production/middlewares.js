@@ -1,7 +1,7 @@
 const middlewares = {
 	'enabled': {
 		'basicauth': {
-			'enabled': true
+			'enabled': false
 		}
 	}
 };
